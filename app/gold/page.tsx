@@ -15,59 +15,59 @@ export default function GoldPage() {
   const goldProducts = [
     {
       id: "gold-necklace-1",
-      name: "Elegant Gold Necklace",
-      price: "₹ 75,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Elegant Gold Necklace",
+      name: "Traditional Gold Necklace Set",
+      price: "₹ 85,000",
+      imageUrl: "/gold/IMG-20250802-WA0058(1).jpg",
+      imageAlt: "Traditional Gold Necklace Set with intricate design",
     },
     {
       id: "gold-earrings-2",
-      name: "Traditional Gold Earrings",
+      name: "Elegant Gold Earrings",
       price: "₹ 45,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Traditional Gold Earrings",
+      imageUrl: "/gold/IMG-20250802-WA0060(1).jpg",
+      imageAlt: "Elegant Gold Earrings with traditional design",
     },
     {
       id: "gold-bracelet-3",
-      name: "Modern Gold Bracelet",
-      price: "₹ 60,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Modern Gold Bracelet",
+      name: "Designer Gold Bracelet",
+      price: "₹ 65,000",
+      imageUrl: "/gold/IMG-20250802-WA0056(1).jpg",
+      imageAlt: "Designer Gold Bracelet with modern styling",
     },
     {
       id: "gold-ring-4",
-      name: "Diamond Gold Ring",
-      price: "₹ 120,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Diamond Gold Ring",
+      name: "Royal Gold Ring",
+      price: "₹ 95,000",
+      imageUrl: "/gold/IMG-20250802-WA0035(1).jpg",
+      imageAlt: "Royal Gold Ring with precious stones",
     },
     {
       id: "gold-chain-5",
       name: "Classic Gold Chain",
-      price: "₹ 30,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Classic Gold Chain",
+      price: "₹ 35,000",
+      imageUrl: "/gold/IMG-20250802-WA0064.jpg",
+      imageAlt: "Classic Gold Chain with traditional pattern",
     },
     {
       id: "gold-bangle-6",
-      name: "Intricate Gold Bangle",
-      price: "₹ 90,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Intricate Gold Bangle",
+      name: "Intricate Gold Bangle Set",
+      price: "₹ 75,000",
+      imageUrl: "/gold/IMG-20250802-WA0039(1).jpg",
+      imageAlt: "Intricate Gold Bangle Set with detailed work",
     },
     {
       id: "gold-pendant-7",
       name: "Floral Gold Pendant",
-      price: "₹ 25,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Floral Gold Pendant",
+      price: "₹ 28,000",
+      imageUrl: "/gold/IMG-20250802-WA0013.jpg",
+      imageAlt: "Floral Gold Pendant with delicate design",
     },
     {
       id: "gold-mangalsutra-8",
       name: "Designer Mangalsutra",
-      price: "₹ 85,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Designer Mangalsutra",
+      price: "₹ 55,000",
+      imageUrl: "/gold/IMG-20250802-WA0031.jpg",
+      imageAlt: "Designer Mangalsutra with modern touch",
     },
   ]
 
@@ -76,7 +76,7 @@ export default function GoldPage() {
       {/* Hero Section for Gold */}
       <section className="relative w-full py-24 md:py-32 overflow-hidden bg-gradient-to-br from-amber-50 to-stone-100">
         <Image
-          src="/placeholder.svg?height=800&width=1600"
+          src="/gold/IMG-20250802-WA0045(1).jpg"
           alt="Gold Jewellery Collection Banner"
           layout="fill"
           objectFit="cover"

@@ -8,24 +8,24 @@ export default function HomePage() {
   const featuredGoldProducts = [
     {
       id: "gold-necklace-1",
-      name: "Regal Gold Necklace",
-      price: "₹ 75,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Regal Gold Necklace",
+      name: "Traditional Gold Necklace Set",
+      price: "₹ 85,000",
+      imageUrl: "/gold/IMG-20250802-WA0058(1).jpg",
+      imageAlt: "Traditional Gold Necklace Set with intricate design",
     },
     {
       id: "gold-earrings-2",
-      name: "Heritage Gold Earrings",
+      name: "Elegant Gold Earrings",
       price: "₹ 45,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Heritage Gold Earrings",
+      imageUrl: "/gold/IMG-20250802-WA0060(1).jpg",
+      imageAlt: "Elegant Gold Earrings with traditional design",
     },
     {
       id: "gold-bracelet-3",
-      name: "Contemporary Gold Bracelet",
-      price: "₹ 60,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Contemporary Gold Bracelet",
+      name: "Designer Gold Bracelet",
+      price: "₹ 65,000",
+      imageUrl: "/gold/IMG-20250802-WA0056(1).jpg",
+      imageAlt: "Designer Gold Bracelet with modern styling",
     },
   ]
 
@@ -34,22 +34,22 @@ export default function HomePage() {
       id: "silver-ring-1",
       name: "Artisan Silver Ring",
       price: "₹ 8,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Artisan Silver Ring",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Artisan Silver Ring with elegant design",
     },
     {
       id: "silver-pendant-2",
       name: "Minimalist Silver Pendant",
       price: "₹ 12,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Minimalist Silver Pendant",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Minimalist Silver Pendant with intricate details",
     },
     {
       id: "silver-anklet-3",
       name: "Ethnic Silver Anklet",
       price: "₹ 5,500",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Ethnic Silver Anklet",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Ethnic Silver Anklet with traditional pattern",
     },
   ]
 
@@ -233,11 +233,11 @@ export default function HomePage() {
           </div>
           <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl border border-stone-200 animate-fade-in delay-200">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/gold/IMG-20250802-WA0047(1).jpg"
               alt="Intricate Gold Jewellery Design"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-500 hover:scale-105"
+              fill
+              className="object-cover transition-transform duration-500 hover:scale-105"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>

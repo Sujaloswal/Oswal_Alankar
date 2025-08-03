@@ -17,57 +17,57 @@ export default function SilverPage() {
       id: "silver-ring-1",
       name: "Sterling Silver Ring",
       price: "₹ 8,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Sterling Silver Ring",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Sterling Silver Ring with elegant design",
     },
     {
       id: "silver-pendant-2",
       name: "Delicate Silver Pendant",
       price: "₹ 12,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Delicate Silver Pendant",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Delicate Silver Pendant with intricate details",
     },
     {
       id: "silver-anklet-3",
       name: "Artisan Silver Anklet",
       price: "₹ 5,500",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Artisan Silver Anklet",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Artisan Silver Anklet with traditional pattern",
     },
     {
       id: "silver-earrings-4",
       name: "Bohemian Silver Earrings",
       price: "₹ 7,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Bohemian Silver Earrings",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Bohemian Silver Earrings with unique style",
     },
     {
       id: "silver-bracelet-5",
       name: "Chunky Silver Bracelet",
       price: "₹ 15,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Chunky Silver Bracelet",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Chunky Silver Bracelet with modern design",
     },
     {
       id: "silver-chain-6",
       name: "Minimalist Silver Chain",
       price: "₹ 9,500",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Minimalist Silver Chain",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Minimalist Silver Chain with clean lines",
     },
     {
       id: "silver-toe-ring-7",
       name: "Traditional Toe Ring Set",
       price: "₹ 3,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Traditional Toe Ring Set",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Traditional Toe Ring Set with cultural significance",
     },
     {
       id: "silver-kada-8",
       name: "Engraved Silver Kada",
       price: "₹ 18,000",
-      imageUrl: "/placeholder.svg?height=300&width=400",
-      imageAlt: "Engraved Silver Kada",
+      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
+      imageAlt: "Engraved Silver Kada with detailed work",
     },
   ]
 
@@ -76,12 +76,11 @@ export default function SilverPage() {
       {/* Hero Section for Silver */}
       <section className="relative w-full py-24 md:py-32 overflow-hidden bg-gradient-to-br from-stone-100 to-white">
         <Image
-          src="/placeholder.svg?height=800&width=1600"
+          src="/silver/IMG-20250802-WA0028.jpg"
           alt="Silver Jewellery Collection Banner"
-          layout="fill"
-          objectFit="cover"
-          quality={80}
-          className="absolute inset-0 z-0 opacity-50 animate-fade-in"
+          fill
+          className="absolute inset-0 z-0 opacity-50 animate-fade-in object-cover"
+          sizes="100vw"
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-t from-stone-50/70 to-transparent"></div>
         <div className="relative z-10 container px-4 md:px-6 text-center text-stone-900">
