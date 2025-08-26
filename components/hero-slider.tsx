@@ -40,9 +40,9 @@ export function HeroSlider() {
                   <Image
                     src={src}
                     alt={`Slide ${index + 1}`}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    layout="fill"
+                    objectFit="contain"
+                    className="rounded-lg"
                   />
                 </CardContent>
               </Card>
@@ -51,7 +51,7 @@ export function HeroSlider() {
         ))}
       </CarouselContent>
       <CarouselPrevious />
-      <CarouselNext />
+      <CarouselNext className="custom-next-button" />
     </Carousel>
   )
 }
