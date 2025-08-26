@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ProductCard } from "@/components/product-card"
 import { Sparkles, Handshake, Crown, Diamond } from "lucide-react"
+import { HeroSlider } from "@/components/hero-slider"
 
 export default function HomePage() {
   const featuredGoldProducts = [
@@ -55,34 +56,9 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero Section - Optimized for fast loading */}
-      <section className="relative w-full py-24 md:py-32 lg:py-48 overflow-hidden bg-gradient-to-br from-amber-50 via-stone-100 to-amber-100">
-        <div className="absolute inset-0 z-0 bg-gradient-to-t from-stone-50/80 to-transparent"></div>
-        <div className="relative z-10 container px-4 md:px-6 text-center text-stone-900">
-          <div className="max-w-4xl mx-auto space-y-8 bg-white/90 p-10 rounded-xl shadow-2xl backdrop-blur-sm border border-stone-200">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-serif font-extrabold tracking-tight text-amber-700 drop-shadow-lg">
-              Oswal Alankar
-            </h1>
-            <p className="text-xl md:text-2xl text-stone-700 leading-relaxed">
-              Where Every Piece Tells a Story of Elegance and Heritage.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-              <Button
-                asChild
-                className="px-8 py-3 text-lg bg-amber-700 text-amber-50 hover:bg-amber-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                <Link href="/gold">Explore Gold</Link>
-              </Button>
-              <Button
-                asChild
-                variant="outline"
-                className="px-8 py-3 text-lg border-amber-700 text-amber-700 hover:bg-amber-50 hover:text-amber-800 transition-all duration-300 transform hover:scale-105 shadow-lg bg-transparent"
-              >
-                <Link href="/silver">Explore Silver</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
+      {/* Hero Section - Sliding Images */}
+      <section className="w-full">
+        <HeroSlider />
       </section>
 
       {/* Why Choose Us Section */}
