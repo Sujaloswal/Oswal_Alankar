@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Filter, SortAsc } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { silverProducts } from "@/lib/products"
 
 export const metadata: Metadata = {
   title: "Silver Jewellery",
@@ -12,65 +13,6 @@ export const metadata: Metadata = {
 }
 
 export default function SilverPage() {
-  const silverProducts = [
-    {
-      id: "silver-ring-1",
-      name: "Sterling Silver Ring",
-      price: "₹ 8,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Sterling Silver Ring with elegant design",
-    },
-    {
-      id: "silver-pendant-2",
-      name: "Delicate Silver Pendant",
-      price: "₹ 12,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Delicate Silver Pendant with intricate details",
-    },
-    {
-      id: "silver-anklet-3",
-      name: "Artisan Silver Anklet",
-      price: "₹ 5,500",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Artisan Silver Anklet with traditional pattern",
-    },
-    {
-      id: "silver-earrings-4",
-      name: "Bohemian Silver Earrings",
-      price: "₹ 7,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Bohemian Silver Earrings with unique style",
-    },
-    {
-      id: "silver-bracelet-5",
-      name: "Chunky Silver Bracelet",
-      price: "₹ 15,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Chunky Silver Bracelet with modern design",
-    },
-    {
-      id: "silver-chain-6",
-      name: "Minimalist Silver Chain",
-      price: "₹ 9,500",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Minimalist Silver Chain with clean lines",
-    },
-    {
-      id: "silver-toe-ring-7",
-      name: "Traditional Toe Ring Set",
-      price: "₹ 3,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Traditional Toe Ring Set with cultural significance",
-    },
-    {
-      id: "silver-kada-8",
-      name: "Engraved Silver Kada",
-      price: "₹ 18,000",
-      imageUrl: "/silver/IMG-20250802-WA0028.jpg",
-      imageAlt: "Engraved Silver Kada with detailed work",
-    },
-  ]
-
   return (
     <div className="bg-stone-50">
       {/* Hero Section for Silver */}
