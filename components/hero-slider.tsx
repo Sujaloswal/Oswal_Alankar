@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -14,9 +13,9 @@ import Autoplay from "embla-carousel-autoplay"
 
 const images = [
   "/Frame 1000001825 (1).png",
-  "/Frame 1000001826 (2).png",  
-  "/Frame 1000001827 (2).png",  
-  "/Frame 1000001828 (1).png"
+  "/Frame 1000001826 (2).png",
+  "/Frame 1000001827 (2).png",
+  "/Frame 1000001828 (1).png",
 ]
 
 export function HeroSlider() {
@@ -26,8 +25,12 @@ export function HeroSlider() {
 
   return (
     <Carousel
+      opts={{
+        loop: true,
+        autoHeight: true,
+      }}
       plugins={[plugin.current]}
-      className="w-full"
+      className="w-full relative"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
@@ -36,13 +39,11 @@ export function HeroSlider() {
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="relative flex aspect-video items-center justify-center p-0">
-                  <Image
+                <CardContent className="flex items-center justify-center p-0">
+                  <img
                     src={src}
                     alt={`Slide ${index + 1}`}
-                    layout="fill"
-                    objectFit="contain"
-                    className="rounded-lg"
+                    className="w-full h-auto object-contain rounded-lg"
                   />
                 </CardContent>
               </Card>
