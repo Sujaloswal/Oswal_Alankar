@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Filter, SortAsc } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { goldProducts } from "@/lib/products"
 
 export const metadata: Metadata = {
   title: "Gold Jewellery",
@@ -12,65 +13,6 @@ export const metadata: Metadata = {
 }
 
 export default function GoldPage() {
-  const goldProducts = [
-    {
-      id: "gold-necklace-1",
-      name: "Traditional Gold Necklace Set",
-      price: "₹ 85,000",
-      imageUrl: "/gold/IMG-20250802-WA0058(1).jpg",
-      imageAlt: "Traditional Gold Necklace Set with intricate design",
-    },
-    {
-      id: "gold-earrings-2",
-      name: "Elegant Gold Earrings",
-      price: "₹ 45,000",
-      imageUrl: "/gold/IMG-20250802-WA0060(1).jpg",
-      imageAlt: "Elegant Gold Earrings with traditional design",
-    },
-    {
-      id: "gold-bracelet-3",
-      name: "Designer Gold Bracelet",
-      price: "₹ 65,000",
-      imageUrl: "/gold/IMG-20250802-WA0056(1).jpg",
-      imageAlt: "Designer Gold Bracelet with modern styling",
-    },
-    {
-      id: "gold-ring-4",
-      name: "Royal Gold Ring",
-      price: "₹ 95,000",
-      imageUrl: "/gold/IMG-20250802-WA0035(1).jpg",
-      imageAlt: "Royal Gold Ring with precious stones",
-    },
-    {
-      id: "gold-chain-5",
-      name: "Classic Gold Chain",
-      price: "₹ 35,000",
-      imageUrl: "/gold/IMG-20250802-WA0064.jpg",
-      imageAlt: "Classic Gold Chain with traditional pattern",
-    },
-    {
-      id: "gold-bangle-6",
-      name: "Intricate Gold Bangle Set",
-      price: "₹ 75,000",
-      imageUrl: "/gold/IMG-20250802-WA0039(1).jpg",
-      imageAlt: "Intricate Gold Bangle Set with detailed work",
-    },
-    {
-      id: "gold-pendant-7",
-      name: "Floral Gold Pendant",
-      price: "₹ 28,000",
-      imageUrl: "/gold/IMG-20250802-WA0013.jpg",
-      imageAlt: "Floral Gold Pendant with delicate design",
-    },
-    {
-      id: "gold-mangalsutra-8",
-      name: "Designer Mangalsutra",
-      price: "₹ 55,000",
-      imageUrl: "/gold/IMG-20250802-WA0031.jpg",
-      imageAlt: "Designer Mangalsutra with modern touch",
-    },
-  ]
-
   return (
     <div className="bg-stone-50">
       {/* Hero Section for Gold */}
