@@ -53,7 +53,7 @@ export function HeroSlider() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className="absolute bottom-8 inset-0 flex items-center justify-center gap-4">
+      <div className="absolute bottom-4 left-0 right-0 flex items-end justify-center gap-4 pb-4">
         <Link href="/gold" passHref>
           <Button variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-black">
             Explore Gold
