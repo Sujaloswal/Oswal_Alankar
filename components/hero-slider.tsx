@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -10,6 +11,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
+import { Button } from "@/components/ui/button"
 
 const images = [
   "/Frame 1000001825 (1).png",
@@ -51,6 +53,18 @@ export function HeroSlider() {
           </CarouselItem>
         ))}
       </CarouselContent>
+      <div className="absolute inset-0 flex items-center justify-center gap-4">
+        <Link href="/gold" passHref>
+          <Button variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-black">
+            Explore Gold
+          </Button>
+        </Link>
+        <Link href="/silver" passHref>
+          <Button variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-black">
+            Explore Silver
+          </Button>
+        </Link>
+      </div>
       <CarouselPrevious />
       <CarouselNext className="custom-next-button" />
     </Carousel>
