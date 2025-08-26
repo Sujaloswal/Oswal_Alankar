@@ -13,10 +13,10 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 
 const images = [
-  "/Frame 1000001828.png",
-  "/Frame 1000001827.png",
-  "/Frame 1000001826 (1).png",
-  "/Frame 1000001826.png",
+  "/Frame 1000001825 (1).png",
+  "/Frame 1000001827 (1).png",  
+  "/Frame 1000001827 (2).png",  
+  "/Frame 1000001828 (1).png"
 ]
 
 export function HeroSlider() {
